@@ -1,0 +1,985 @@
+2025-06-15 11:52:49,861 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 11:52:50,027 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.84.130:5001
+2025-06-15 11:52:50,027 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 11:52:50,031 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 11:52:56,569 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 11:52:56,652 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 11:52:56,663 - werkzeug - INFO -  * Debugger PIN: 148-937-680
+2025-06-15 11:54:06,709 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 11:54:06,804 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.84.130:5001
+2025-06-15 11:54:06,807 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 11:54:46,756 - __main__ - INFO - Received prediction request
+2025-06-15 11:54:46,759 - __main__ - INFO - Processing URL: http://secure-login-paypal.com
+2025-06-15 11:54:47,611 - __main__ - INFO - Prediction complete - URL: http://secure-login-paypal.com, Phishing: True, Confidence: 0.9180
+2025-06-15 11:54:47,616 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 11:54:47] "POST /predict HTTP/1.1" 200 -
+2025-06-15 11:56:21,826 - __main__ - INFO - Received prediction request
+2025-06-15 11:56:21,827 - __main__ - INFO - Processing URL: https://www.paypal.com
+2025-06-15 11:56:21,962 - __main__ - INFO - Prediction complete - URL: https://www.paypal.com, Phishing: True, Confidence: 0.6235
+2025-06-15 11:56:21,964 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 11:56:21] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:00:18,983 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 12:00:19,132 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.84.130:5001
+2025-06-15 12:00:19,133 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 12:03:18,701 - __main__ - INFO - Received prediction request
+2025-06-15 12:03:18,704 - __main__ - INFO - Processing URL: https://www.paypal.com
+2025-06-15 12:03:20,265 - __main__ - INFO - Prediction complete - URL: https://www.paypal.com, Phishing: False, Confidence: 0.4157
+2025-06-15 12:03:20,269 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:03:20] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:03:20,333 - __main__ - INFO - Received prediction request
+2025-06-15 12:03:20,334 - __main__ - INFO - Processing URL: http://secure-paypal-login-verify-account.com
+2025-06-15 12:03:20,527 - __main__ - INFO - Prediction complete - URL: http://secure-paypal-login-verify-account.com, Phishing: True, Confidence: 0.9800
+2025-06-15 12:03:20,529 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:03:20] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:03:20,532 - __main__ - INFO - Received prediction request
+2025-06-15 12:03:20,532 - __main__ - INFO - Processing URL: https://bit.ly/3x7vdyT
+2025-06-15 12:03:20,668 - __main__ - INFO - Prediction complete - URL: https://bit.ly/3x7vdyT, Phishing: True, Confidence: 0.9949
+2025-06-15 12:03:20,671 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:03:20] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:04:56,088 - __main__ - INFO - Received prediction request
+2025-06-15 12:04:56,089 - __main__ - INFO - Processing URL: https://www.chase.com
+2025-06-15 12:04:56,222 - __main__ - INFO - Prediction complete - URL: https://www.chase.com, Phishing: False, Confidence: 0.4078
+2025-06-15 12:04:56,223 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:04:56] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:04:56,229 - __main__ - INFO - Received prediction request
+2025-06-15 12:04:56,230 - __main__ - INFO - Processing URL: https://secure.bankofamerica.com
+2025-06-15 12:04:56,358 - __main__ - INFO - Prediction complete - URL: https://secure.bankofamerica.com, Phishing: True, Confidence: 0.5135
+2025-06-15 12:04:56,361 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:04:56] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:04:56,364 - __main__ - INFO - Received prediction request
+2025-06-15 12:04:56,367 - __main__ - INFO - Processing URL: http://update-your-bank-details-now.com
+2025-06-15 12:04:56,480 - __main__ - INFO - Prediction complete - URL: http://update-your-bank-details-now.com, Phishing: True, Confidence: 0.9591
+2025-06-15 12:04:56,481 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:04:56] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:07:40,684 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 12:07:40,765 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.84.130:5001
+2025-06-15 12:07:40,765 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 12:08:24,669 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 12:08:24,715 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.84.130:5001
+2025-06-15 12:08:24,715 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 12:08:42,911 - __main__ - INFO - Received prediction request
+2025-06-15 12:08:42,993 - __main__ - INFO - Processing URL: https://www.chase.com
+2025-06-15 12:08:47,675 - __main__ - INFO - Prediction complete - URL: https://www.chase.com, Phishing: False, Confidence: 0.4078
+2025-06-15 12:08:47,679 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:08:47] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:08:47,965 - __main__ - INFO - Received prediction request
+2025-06-15 12:08:47,966 - __main__ - INFO - Processing URL: https://secure.bankofamerica.com
+2025-06-15 12:08:48,043 - __main__ - INFO - Prediction complete - URL: https://secure.bankofamerica.com, Phishing: True, Confidence: 0.5135
+2025-06-15 12:08:48,044 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:08:48] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:08:48,048 - __main__ - INFO - Received prediction request
+2025-06-15 12:08:48,048 - __main__ - INFO - Processing URL: http://update-your-bank-details-now.com
+2025-06-15 12:08:48,112 - __main__ - INFO - Prediction complete - URL: http://update-your-bank-details-now.com, Phishing: True, Confidence: 0.9591
+2025-06-15 12:08:48,113 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:08:48] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:08:48,126 - __main__ - INFO - Received prediction request
+2025-06-15 12:08:48,126 - __main__ - INFO - Processing URL: http://secure-paypal-login-verify-account.com
+2025-06-15 12:08:48,190 - __main__ - INFO - Prediction complete - URL: http://secure-paypal-login-verify-account.com, Phishing: True, Confidence: 0.9800
+2025-06-15 12:08:48,191 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:08:48] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:10:30,832 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 12:10:30,893 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.84.130:5001
+2025-06-15 12:10:30,894 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 12:10:46,573 - __main__ - INFO - Received prediction request
+2025-06-15 12:10:46,574 - __main__ - INFO - Processing URL: https://www.chase.com
+2025-06-15 12:10:46,998 - __main__ - INFO - Prediction complete - URL: https://www.chase.com, Phishing: False, Confidence: 0.4078
+2025-06-15 12:10:47,005 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:10:47] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:10:47,032 - __main__ - INFO - Received prediction request
+2025-06-15 12:10:47,033 - __main__ - INFO - Processing URL: https://secure.bankofamerica.com
+2025-06-15 12:10:47,107 - __main__ - INFO - Prediction complete - URL: https://secure.bankofamerica.com, Phishing: True, Confidence: 0.5135
+2025-06-15 12:10:47,108 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:10:47] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:10:47,113 - __main__ - INFO - Received prediction request
+2025-06-15 12:10:47,114 - __main__ - INFO - Processing URL: http://update-your-bank-details-now.com
+2025-06-15 12:10:47,178 - __main__ - INFO - Prediction complete - URL: http://update-your-bank-details-now.com, Phishing: True, Confidence: 0.9591
+2025-06-15 12:10:47,179 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:10:47] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:10:47,183 - __main__ - INFO - Received prediction request
+2025-06-15 12:10:47,184 - __main__ - INFO - Processing URL: http://secure-paypal-login-verify-account.com
+2025-06-15 12:10:47,249 - __main__ - INFO - Prediction complete - URL: http://secure-paypal-login-verify-account.com, Phishing: True, Confidence: 0.9800
+2025-06-15 12:10:47,250 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:10:47] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:12:52,189 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 12:12:52,306 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.84.130:5001
+2025-06-15 12:12:52,306 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 12:13:21,440 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 12:13:21,518 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.84.130:5001
+2025-06-15 12:13:21,518 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 12:13:39,290 - __main__ - INFO - Received prediction request
+2025-06-15 12:13:39,290 - __main__ - INFO - Processing URL: https://www.chase.com
+2025-06-15 12:13:39,715 - __main__ - ERROR - Prediction failed: name 'is_trusted_financial' is not defined
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 389, in predict
+    if is_trusted_financial:
+       ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'is_trusted_financial' is not defined
+2025-06-15 12:13:39,719 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:13:39] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-06-15 12:13:40,072 - __main__ - INFO - Received prediction request
+2025-06-15 12:13:40,072 - __main__ - INFO - Processing URL: https://secure.bankofamerica.com
+2025-06-15 12:13:40,156 - __main__ - ERROR - Prediction failed: name 'is_trusted_financial' is not defined
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 389, in predict
+    if is_trusted_financial:
+       ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'is_trusted_financial' is not defined
+2025-06-15 12:13:40,160 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:13:40] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-06-15 12:13:40,167 - __main__ - INFO - Received prediction request
+2025-06-15 12:13:40,167 - __main__ - INFO - Processing URL: http://update-your-bank-details-now.com
+2025-06-15 12:13:40,242 - __main__ - ERROR - Prediction failed: name 'is_trusted_financial' is not defined
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 389, in predict
+    if is_trusted_financial:
+       ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'is_trusted_financial' is not defined
+2025-06-15 12:13:40,245 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:13:40] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-06-15 12:13:40,253 - __main__ - INFO - Received prediction request
+2025-06-15 12:13:40,253 - __main__ - INFO - Processing URL: http://secure-paypal-login-verify-account.com
+2025-06-15 12:13:40,334 - __main__ - ERROR - Prediction failed: name 'is_trusted_financial' is not defined
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 389, in predict
+    if is_trusted_financial:
+       ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'is_trusted_financial' is not defined
+2025-06-15 12:13:40,337 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:13:40] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-06-15 12:13:52,885 - __main__ - INFO - Received prediction request
+2025-06-15 12:13:52,886 - __main__ - INFO - Processing URL: https://www.chase.com
+2025-06-15 12:13:52,967 - __main__ - ERROR - Prediction failed: name 'is_trusted_financial' is not defined
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 389, in predict
+    if is_trusted_financial:
+       ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'is_trusted_financial' is not defined
+2025-06-15 12:13:52,969 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:13:52] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-06-15 12:13:53,176 - __main__ - INFO - Received prediction request
+2025-06-15 12:13:53,178 - __main__ - INFO - Processing URL: https://secure.bankofamerica.com
+2025-06-15 12:13:53,261 - __main__ - ERROR - Prediction failed: name 'is_trusted_financial' is not defined
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 389, in predict
+    if is_trusted_financial:
+       ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'is_trusted_financial' is not defined
+2025-06-15 12:13:53,264 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:13:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-06-15 12:13:53,275 - __main__ - INFO - Received prediction request
+2025-06-15 12:13:53,276 - __main__ - INFO - Processing URL: http://update-your-bank-details-now.com
+2025-06-15 12:13:53,361 - __main__ - ERROR - Prediction failed: name 'is_trusted_financial' is not defined
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 389, in predict
+    if is_trusted_financial:
+       ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'is_trusted_financial' is not defined
+2025-06-15 12:13:53,363 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:13:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-06-15 12:13:53,375 - __main__ - INFO - Received prediction request
+2025-06-15 12:13:53,375 - __main__ - INFO - Processing URL: http://secure-paypal-login-verify-account.com
+2025-06-15 12:13:53,460 - __main__ - ERROR - Prediction failed: name 'is_trusted_financial' is not defined
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 389, in predict
+    if is_trusted_financial:
+       ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'is_trusted_financial' is not defined
+2025-06-15 12:13:53,464 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:13:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-06-15 12:15:33,334 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 12:15:33,422 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.84.130:5001
+2025-06-15 12:15:33,424 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 12:16:08,384 - __main__ - INFO - Received prediction request
+2025-06-15 12:16:08,384 - __main__ - INFO - Processing URL: https://www.chase.com
+2025-06-15 12:16:08,621 - __main__ - INFO - Prediction complete - URL: https://www.chase.com, Phishing: False, Confidence: 0.5922
+2025-06-15 12:16:08,622 - __main__ - ERROR - Prediction failed: Object of type bool_ is not JSON serializable
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 416, in predict
+    return jsonify(response), 200
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type bool_ is not JSON serializable
+2025-06-15 12:16:08,625 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:16:08] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-06-15 12:16:08,811 - __main__ - INFO - Received prediction request
+2025-06-15 12:16:08,812 - __main__ - INFO - Processing URL: https://secure.bankofamerica.com
+2025-06-15 12:16:08,901 - __main__ - INFO - Prediction complete - URL: https://secure.bankofamerica.com, Phishing: False, Confidence: 0.4865
+2025-06-15 12:16:08,902 - __main__ - ERROR - Prediction failed: Object of type bool_ is not JSON serializable
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 416, in predict
+    return jsonify(response), 200
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type bool_ is not JSON serializable
+2025-06-15 12:16:08,903 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:16:08] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-06-15 12:16:08,912 - __main__ - INFO - Received prediction request
+2025-06-15 12:16:08,912 - __main__ - INFO - Processing URL: http://update-your-bank-details-now.com
+2025-06-15 12:16:08,984 - __main__ - INFO - Prediction complete - URL: http://update-your-bank-details-now.com, Phishing: True, Confidence: 0.9591
+2025-06-15 12:16:08,984 - __main__ - ERROR - Prediction failed: Object of type bool_ is not JSON serializable
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 416, in predict
+    return jsonify(response), 200
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type bool_ is not JSON serializable
+2025-06-15 12:16:08,985 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:16:08] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-06-15 12:16:09,010 - __main__ - INFO - Received prediction request
+2025-06-15 12:16:09,012 - __main__ - INFO - Processing URL: http://secure-paypal-login-verify-account.com
+2025-06-15 12:16:09,124 - __main__ - INFO - Prediction complete - URL: http://secure-paypal-login-verify-account.com, Phishing: True, Confidence: 0.9800
+2025-06-15 12:16:09,125 - __main__ - ERROR - Prediction failed: Object of type bool_ is not JSON serializable
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 416, in predict
+    return jsonify(response), 200
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type bool_ is not JSON serializable
+2025-06-15 12:16:09,126 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:16:09] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-06-15 12:17:32,409 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 12:17:32,500 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.84.130:5001
+2025-06-15 12:17:32,501 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 12:17:45,788 - __main__ - INFO - Received prediction request
+2025-06-15 12:17:45,788 - __main__ - INFO - Processing URL: https://www.chase.com
+2025-06-15 12:17:46,300 - __main__ - INFO - Prediction complete - URL: https://www.chase.com, Phishing: False, Confidence: 0.5922
+2025-06-15 12:17:46,306 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:17:46] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:17:46,606 - __main__ - INFO - Received prediction request
+2025-06-15 12:17:46,606 - __main__ - INFO - Processing URL: https://secure.bankofamerica.com
+2025-06-15 12:17:46,692 - __main__ - INFO - Prediction complete - URL: https://secure.bankofamerica.com, Phishing: False, Confidence: 0.4865
+2025-06-15 12:17:46,693 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:17:46] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:17:46,698 - __main__ - INFO - Received prediction request
+2025-06-15 12:17:46,698 - __main__ - INFO - Processing URL: http://update-your-bank-details-now.com
+2025-06-15 12:17:46,766 - __main__ - INFO - Prediction complete - URL: http://update-your-bank-details-now.com, Phishing: True, Confidence: 0.9591
+2025-06-15 12:17:46,767 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:17:46] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:17:46,769 - __main__ - INFO - Received prediction request
+2025-06-15 12:17:46,771 - __main__ - INFO - Processing URL: http://secure-paypal-login-verify-account.com
+2025-06-15 12:17:46,834 - __main__ - INFO - Prediction complete - URL: http://secure-paypal-login-verify-account.com, Phishing: True, Confidence: 0.9800
+2025-06-15 12:17:46,835 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:17:46] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:19:44,551 - __main__ - INFO - Received prediction request
+2025-06-15 12:19:44,551 - __main__ - INFO - Processing URL: https://www.wellsfargo.com
+2025-06-15 12:19:44,660 - __main__ - INFO - Prediction complete - URL: https://www.wellsfargo.com, Phishing: False, Confidence: 0.5463
+2025-06-15 12:19:44,662 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:19:44] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:19:44,667 - __main__ - INFO - Received prediction request
+2025-06-15 12:19:44,667 - __main__ - INFO - Processing URL: https://online.citi.com
+2025-06-15 12:19:44,770 - __main__ - INFO - Prediction complete - URL: https://online.citi.com, Phishing: False, Confidence: 0.5758
+2025-06-15 12:19:44,771 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:19:44] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:19:44,779 - __main__ - INFO - Received prediction request
+2025-06-15 12:19:44,779 - __main__ - INFO - Processing URL: https://www.amazon.com
+2025-06-15 12:19:44,855 - __main__ - INFO - Prediction complete - URL: https://www.amazon.com, Phishing: False, Confidence: 0.5843
+2025-06-15 12:19:44,856 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:19:44] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:19:44,860 - __main__ - INFO - Received prediction request
+2025-06-15 12:19:44,862 - __main__ - INFO - Processing URL: https://www.facebook.com
+2025-06-15 12:19:44,929 - __main__ - INFO - Prediction complete - URL: https://www.facebook.com, Phishing: False, Confidence: 0.5660
+2025-06-15 12:19:44,930 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:19:44] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:19:44,933 - __main__ - INFO - Received prediction request
+2025-06-15 12:19:44,935 - __main__ - INFO - Processing URL: http://secure-account-update-now.com/login
+2025-06-15 12:19:45,024 - __main__ - INFO - Prediction complete - URL: http://secure-account-update-now.com/login, Phishing: True, Confidence: 0.9759
+2025-06-15 12:19:45,025 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:19:45] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:19:45,042 - __main__ - INFO - Received prediction request
+2025-06-15 12:19:45,042 - __main__ - INFO - Processing URL: https://www.paypal-confirm-account.com/verify
+2025-06-15 12:19:45,121 - __main__ - INFO - Prediction complete - URL: https://www.paypal-confirm-account.com/verify, Phishing: True, Confidence: 0.9917
+2025-06-15 12:19:45,122 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:19:45] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:19:45,128 - __main__ - INFO - Received prediction request
+2025-06-15 12:19:45,129 - __main__ - INFO - Processing URL: https://bit.ly/3x7vdyT
+2025-06-15 12:19:45,201 - __main__ - INFO - Prediction complete - URL: https://bit.ly/3x7vdyT, Phishing: True, Confidence: 0.9949
+2025-06-15 12:19:45,202 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:19:45] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:19:45,208 - __main__ - INFO - Received prediction request
+2025-06-15 12:19:45,208 - __main__ - INFO - Processing URL: https://tinyurl.com/2p8h9w3f
+2025-06-15 12:19:45,282 - __main__ - INFO - Prediction complete - URL: https://tinyurl.com/2p8h9w3f, Phishing: True, Confidence: 0.9963
+2025-06-15 12:19:45,282 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:19:45] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:19:45,290 - __main__ - INFO - Received prediction request
+2025-06-15 12:19:45,290 - __main__ - INFO - Processing URL: http://192.168.1.1/login
+2025-06-15 12:19:45,357 - __main__ - INFO - Prediction complete - URL: http://192.168.1.1/login, Phishing: True, Confidence: 0.7524
+2025-06-15 12:19:45,357 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:19:45] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:19:45,364 - __main__ - INFO - Received prediction request
+2025-06-15 12:19:45,364 - __main__ - INFO - Processing URL: http://secure-login.xyz
+2025-06-15 12:19:45,447 - __main__ - INFO - Prediction complete - URL: http://secure-login.xyz, Phishing: True, Confidence: 0.7905
+2025-06-15 12:19:45,448 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:19:45] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:19:45,454 - __main__ - INFO - Received prediction request
+2025-06-15 12:19:45,454 - __main__ - INFO - Processing URL: http://account-update.top
+2025-06-15 12:19:45,522 - __main__ - INFO - Prediction complete - URL: http://account-update.top, Phishing: True, Confidence: 0.8017
+2025-06-15 12:19:45,522 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:19:45] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:19:45,530 - __main__ - INFO - Received prediction request
+2025-06-15 12:19:45,531 - __main__ - INFO - Processing URL: https://www.example.com/login?redirect=https%3A%2F%2Fphishing-site.com%2Fsteal-creds
+2025-06-15 12:19:45,608 - __main__ - INFO - Prediction complete - URL: https://www.example.com/login?redirect=https%3A%2F%2Fphishing-site.com%2Fsteal-creds, Phishing: True, Confidence: 0.5578
+2025-06-15 12:19:45,611 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:19:45] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:31:38,442 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 12:31:38,508 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.84.130:5001
+2025-06-15 12:31:38,508 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 12:31:59,581 - __main__ - INFO - Received prediction request
+2025-06-15 12:31:59,583 - __main__ - INFO - Processing URL: https://www.example.com
+2025-06-15 12:32:00,107 - __main__ - INFO - Prediction complete - URL: https://www.example.com, Phishing: False, Confidence: 0.5758
+2025-06-15 12:32:00,112 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:32:00] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:32:13,298 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:32:13] "[33mGET /api/history?limit=5 HTTP/1.1[0m" 404 -
+2025-06-15 12:32:40,602 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:32:40] "[33mPOST /api/retrain HTTP/1.1[0m" 404 -
+2025-06-15 12:32:50,977 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:32:50] "[33mGET /api/model/versions HTTP/1.1[0m" 404 -
+2025-06-15 12:38:45,783 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 12:38:45,848 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.84.130:5001
+2025-06-15 12:38:45,850 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 12:40:21,319 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 12:40:21,374 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.84.130:5001
+2025-06-15 12:40:21,374 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 12:40:45,202 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:40:45] "[33mGET /api/history?limit=5 HTTP/1.1[0m" 404 -
+2025-06-15 12:40:45,521 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:40:45] "[33mPOST /api/retrain HTTP/1.1[0m" 404 -
+2025-06-15 12:40:45,531 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:40:45] "[33mGET /api/model/versions HTTP/1.1[0m" 404 -
+2025-06-15 12:45:38,994 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 12:45:39,049 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 12:45:39,063 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 12:45:44,080 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 12:45:44,134 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 12:45:44,144 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 12:45:44,160 - werkzeug - INFO -  * Debugger PIN: 621-477-048
+2025-06-15 12:47:18,983 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 12:48:01,224 - werkzeug - INFO -  * Detected change in 'E:\\CyberPbl\\server\\python\\prediction_service.py', reloading
+2025-06-15 12:48:08,645 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 12:49:16,865 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 12:49:16,967 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.84.130:5001
+2025-06-15 12:49:16,968 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 12:49:35,814 - __main__ - INFO - Received prediction request
+2025-06-15 12:49:35,815 - __main__ - INFO - Processing URL: https://www.wellsfargo.com
+2025-06-15 12:49:36,300 - __main__ - INFO - Prediction complete - URL: https://www.wellsfargo.com, Phishing: False, Confidence: 0.5463
+2025-06-15 12:49:36,304 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:49:36] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:49:36,593 - __main__ - INFO - Received prediction request
+2025-06-15 12:49:36,593 - __main__ - INFO - Processing URL: https://online.citi.com
+2025-06-15 12:49:36,665 - __main__ - INFO - Prediction complete - URL: https://online.citi.com, Phishing: False, Confidence: 0.5758
+2025-06-15 12:49:36,665 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:49:36] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:49:36,669 - __main__ - INFO - Received prediction request
+2025-06-15 12:49:36,669 - __main__ - INFO - Processing URL: https://www.amazon.com
+2025-06-15 12:49:36,730 - __main__ - INFO - Prediction complete - URL: https://www.amazon.com, Phishing: False, Confidence: 0.5843
+2025-06-15 12:49:36,731 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:49:36] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:49:36,735 - __main__ - INFO - Received prediction request
+2025-06-15 12:49:36,735 - __main__ - INFO - Processing URL: https://www.facebook.com
+2025-06-15 12:49:36,798 - __main__ - INFO - Prediction complete - URL: https://www.facebook.com, Phishing: False, Confidence: 0.5660
+2025-06-15 12:49:36,798 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:49:36] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:49:36,802 - __main__ - INFO - Received prediction request
+2025-06-15 12:49:36,803 - __main__ - INFO - Processing URL: http://secure-account-update-now.com/login
+2025-06-15 12:49:36,867 - __main__ - INFO - Prediction complete - URL: http://secure-account-update-now.com/login, Phishing: True, Confidence: 0.9759
+2025-06-15 12:49:36,868 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:49:36] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:49:36,871 - __main__ - INFO - Received prediction request
+2025-06-15 12:49:36,871 - __main__ - INFO - Processing URL: https://www.paypal-confirm-account.com/verify
+2025-06-15 12:49:36,931 - __main__ - INFO - Prediction complete - URL: https://www.paypal-confirm-account.com/verify, Phishing: True, Confidence: 0.9917
+2025-06-15 12:49:36,932 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:49:36] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:49:36,948 - __main__ - INFO - Received prediction request
+2025-06-15 12:49:36,949 - __main__ - INFO - Processing URL: https://bit.ly/3x7vdyT
+2025-06-15 12:49:37,039 - __main__ - INFO - Prediction complete - URL: https://bit.ly/3x7vdyT, Phishing: True, Confidence: 0.9949
+2025-06-15 12:49:37,040 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:49:37] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:49:37,046 - __main__ - INFO - Received prediction request
+2025-06-15 12:49:37,046 - __main__ - INFO - Processing URL: https://tinyurl.com/2p8h9w3f
+2025-06-15 12:49:37,121 - __main__ - INFO - Prediction complete - URL: https://tinyurl.com/2p8h9w3f, Phishing: True, Confidence: 0.9963
+2025-06-15 12:49:37,121 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:49:37] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:49:37,128 - __main__ - INFO - Received prediction request
+2025-06-15 12:49:37,128 - __main__ - INFO - Processing URL: http://192.168.1.1/login
+2025-06-15 12:49:37,200 - __main__ - INFO - Prediction complete - URL: http://192.168.1.1/login, Phishing: True, Confidence: 0.7524
+2025-06-15 12:49:37,202 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:49:37] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:49:37,206 - __main__ - INFO - Received prediction request
+2025-06-15 12:49:37,207 - __main__ - INFO - Processing URL: http://secure-login.xyz
+2025-06-15 12:49:37,277 - __main__ - INFO - Prediction complete - URL: http://secure-login.xyz, Phishing: True, Confidence: 0.7905
+2025-06-15 12:49:37,277 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:49:37] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:49:37,283 - __main__ - INFO - Received prediction request
+2025-06-15 12:49:37,284 - __main__ - INFO - Processing URL: http://account-update.top
+2025-06-15 12:49:37,357 - __main__ - INFO - Prediction complete - URL: http://account-update.top, Phishing: True, Confidence: 0.8017
+2025-06-15 12:49:37,357 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:49:37] "POST /predict HTTP/1.1" 200 -
+2025-06-15 12:49:37,388 - __main__ - INFO - Received prediction request
+2025-06-15 12:49:37,388 - __main__ - INFO - Processing URL: https://www.example.com/login?redirect=https%3A%2F%2Fphishing-site.com%2Fsteal-creds
+2025-06-15 12:49:37,466 - __main__ - INFO - Prediction complete - URL: https://www.example.com/login?redirect=https%3A%2F%2Fphishing-site.com%2Fsteal-creds, Phishing: True, Confidence: 0.5578
+2025-06-15 12:49:37,466 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 12:49:37] "POST /predict HTTP/1.1" 200 -
+2025-06-15 15:17:33,790 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 15:17:33,867 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.247.130:5001
+2025-06-15 15:17:33,868 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 15:19:46,129 - __main__ - INFO - Received prediction request
+2025-06-15 15:19:46,147 - __main__ - INFO - Processing URL: https://www.wellsfargo.com
+2025-06-15 15:19:47,868 - __main__ - INFO - Prediction complete - URL: https://www.wellsfargo.com, Phishing: False, Confidence: 0.5463
+2025-06-15 15:19:47,872 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 15:19:47] "POST /predict HTTP/1.1" 200 -
+2025-06-15 15:19:48,183 - __main__ - INFO - Received prediction request
+2025-06-15 15:19:48,184 - __main__ - INFO - Processing URL: https://online.citi.com
+2025-06-15 15:19:48,275 - __main__ - INFO - Prediction complete - URL: https://online.citi.com, Phishing: False, Confidence: 0.5758
+2025-06-15 15:19:48,278 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 15:19:48] "POST /predict HTTP/1.1" 200 -
+2025-06-15 15:19:48,282 - __main__ - INFO - Received prediction request
+2025-06-15 15:19:48,282 - __main__ - INFO - Processing URL: https://www.amazon.com
+2025-06-15 15:19:48,355 - __main__ - INFO - Prediction complete - URL: https://www.amazon.com, Phishing: False, Confidence: 0.5843
+2025-06-15 15:19:48,357 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 15:19:48] "POST /predict HTTP/1.1" 200 -
+2025-06-15 15:19:48,360 - __main__ - INFO - Received prediction request
+2025-06-15 15:19:48,361 - __main__ - INFO - Processing URL: https://www.facebook.com
+2025-06-15 15:19:48,422 - __main__ - INFO - Prediction complete - URL: https://www.facebook.com, Phishing: False, Confidence: 0.5660
+2025-06-15 15:19:48,423 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 15:19:48] "POST /predict HTTP/1.1" 200 -
+2025-06-15 15:19:48,426 - __main__ - INFO - Received prediction request
+2025-06-15 15:19:48,426 - __main__ - INFO - Processing URL: http://secure-account-update-now.com/login
+2025-06-15 15:19:48,488 - __main__ - INFO - Prediction complete - URL: http://secure-account-update-now.com/login, Phishing: True, Confidence: 0.9759
+2025-06-15 15:19:48,489 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 15:19:48] "POST /predict HTTP/1.1" 200 -
+2025-06-15 15:19:48,516 - __main__ - INFO - Received prediction request
+2025-06-15 15:19:48,517 - __main__ - INFO - Processing URL: https://www.paypal-confirm-account.com/verify
+2025-06-15 15:19:48,592 - __main__ - INFO - Prediction complete - URL: https://www.paypal-confirm-account.com/verify, Phishing: True, Confidence: 0.9917
+2025-06-15 15:19:48,593 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 15:19:48] "POST /predict HTTP/1.1" 200 -
+2025-06-15 15:19:48,599 - __main__ - INFO - Received prediction request
+2025-06-15 15:19:48,600 - __main__ - INFO - Processing URL: https://bit.ly/3x7vdyT
+2025-06-15 15:19:48,675 - __main__ - INFO - Prediction complete - URL: https://bit.ly/3x7vdyT, Phishing: True, Confidence: 0.9949
+2025-06-15 15:19:48,676 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 15:19:48] "POST /predict HTTP/1.1" 200 -
+2025-06-15 15:19:48,680 - __main__ - INFO - Received prediction request
+2025-06-15 15:19:48,680 - __main__ - INFO - Processing URL: https://tinyurl.com/2p8h9w3f
+2025-06-15 15:19:48,755 - __main__ - INFO - Prediction complete - URL: https://tinyurl.com/2p8h9w3f, Phishing: True, Confidence: 0.9963
+2025-06-15 15:19:48,755 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 15:19:48] "POST /predict HTTP/1.1" 200 -
+2025-06-15 15:19:48,760 - __main__ - INFO - Received prediction request
+2025-06-15 15:19:48,761 - __main__ - INFO - Processing URL: http://192.168.1.1/login
+2025-06-15 15:19:48,848 - __main__ - INFO - Prediction complete - URL: http://192.168.1.1/login, Phishing: True, Confidence: 0.7524
+2025-06-15 15:19:48,849 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 15:19:48] "POST /predict HTTP/1.1" 200 -
+2025-06-15 15:19:48,853 - __main__ - INFO - Received prediction request
+2025-06-15 15:19:48,854 - __main__ - INFO - Processing URL: http://secure-login.xyz
+2025-06-15 15:19:48,936 - __main__ - INFO - Prediction complete - URL: http://secure-login.xyz, Phishing: True, Confidence: 0.7905
+2025-06-15 15:19:48,937 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 15:19:48] "POST /predict HTTP/1.1" 200 -
+2025-06-15 15:19:48,942 - __main__ - INFO - Received prediction request
+2025-06-15 15:19:48,942 - __main__ - INFO - Processing URL: http://account-update.top
+2025-06-15 15:19:49,016 - __main__ - INFO - Prediction complete - URL: http://account-update.top, Phishing: True, Confidence: 0.8017
+2025-06-15 15:19:49,018 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 15:19:49] "POST /predict HTTP/1.1" 200 -
+2025-06-15 15:19:49,022 - __main__ - INFO - Received prediction request
+2025-06-15 15:19:49,022 - __main__ - INFO - Processing URL: https://www.example.com/login?redirect=https%3A%2F%2Fphishing-site.com%2Fsteal-creds
+2025-06-15 15:19:49,115 - __main__ - INFO - Prediction complete - URL: https://www.example.com/login?redirect=https%3A%2F%2Fphishing-site.com%2Fsteal-creds, Phishing: True, Confidence: 0.5578
+2025-06-15 15:19:49,117 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2025 15:19:49] "POST /predict HTTP/1.1" 200 -
+2025-06-15 16:25:14,881 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 16:25:15,018 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.247.130:5001
+2025-06-15 16:25:15,019 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 19:03:07,495 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 19:03:07,581 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.247.130:5001
+2025-06-15 19:03:07,582 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 19:06:44,151 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 19:06:44,239 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.247.130:5001
+2025-06-15 19:06:44,240 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 22:32:02,305 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 22:32:02,434 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.247.130:5001
+2025-06-15 22:32:02,436 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-15 23:12:05,099 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:12:05,173 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:12:05,211 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:12:05,229 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 23:12:08,589 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:12:08,658 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:12:08,704 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:12:08,721 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 23:12:08,729 - werkzeug - INFO -  * Debugger PIN: 621-477-048
+2025-06-15 23:13:28,337 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:14:35,490 - werkzeug - INFO -  * Detected change in 'E:\\CyberPbl\\server\\python\\app.py', reloading
+2025-06-15 23:14:36,438 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 23:14:40,469 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:14:40,539 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:14:40,577 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:14:40,592 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 23:14:40,594 - werkzeug - INFO -  * Debugger PIN: 621-477-048
+2025-06-15 23:16:53,425 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:16:53,488 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:16:53,537 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:16:53,558 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 23:16:57,525 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:16:57,616 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:16:57,730 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:16:57,746 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 23:16:57,750 - werkzeug - INFO -  * Debugger PIN: 621-477-048
+2025-06-15 23:17:38,470 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:18:01,083 - werkzeug - INFO -  * Detected change in 'E:\\CyberPbl\\server\\python\\app.py', reloading
+2025-06-15 23:18:01,760 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 23:18:05,837 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:18:05,880 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:18:05,911 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:18:05,921 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 23:18:05,924 - werkzeug - INFO -  * Debugger PIN: 621-477-048
+2025-06-15 23:18:47,825 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:18:47,900 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:18:47,948 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:18:47,964 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 23:18:51,815 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:18:51,863 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:18:51,896 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:18:51,906 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 23:18:51,909 - werkzeug - INFO -  * Debugger PIN: 621-477-048
+2025-06-15 23:19:15,087 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:20:03,289 - werkzeug - INFO -  * Detected change in 'E:\\CyberPbl\\server\\python\\app.py', reloading
+2025-06-15 23:20:04,347 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 23:20:08,893 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:20:08,935 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:20:08,965 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:20:08,976 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 23:20:08,979 - werkzeug - INFO -  * Debugger PIN: 621-477-048
+2025-06-15 23:20:20,050 - werkzeug - INFO -  * Detected change in 'E:\\CyberPbl\\server\\python\\app.py', reloading
+2025-06-15 23:20:20,924 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 23:20:24,634 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:20:24,733 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:20:24,789 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:20:24,808 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 23:20:24,811 - werkzeug - INFO -  * Debugger PIN: 621-477-048
+2025-06-15 23:21:19,137 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:21:19,187 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:21:19,222 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:21:19,235 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 23:21:22,894 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:21:22,976 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:21:23,020 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:21:23,033 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 23:21:23,036 - werkzeug - INFO -  * Debugger PIN: 621-477-048
+2025-06-15 23:27:50,092 - werkzeug - INFO -  * Detected change in 'E:\\CyberPbl\\server\\python\\app.py', reloading
+2025-06-15 23:27:51,225 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 23:27:54,930 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:27:54,972 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:27:55,004 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:27:55,016 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 23:27:55,020 - werkzeug - INFO -  * Debugger PIN: 621-477-048
+2025-06-15 23:28:24,196 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:28:24,245 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:28:24,282 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:28:24,293 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 23:28:27,809 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:28:27,858 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:28:27,899 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:28:27,911 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 23:28:27,915 - werkzeug - INFO -  * Debugger PIN: 621-477-048
+2025-06-15 23:31:04,797 - werkzeug - INFO -  * Detected change in 'E:\\CyberPbl\\server\\python\\app.py', reloading
+2025-06-15 23:31:06,074 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 23:31:09,409 - engineio.server - INFO - Server initialized for eventlet.
+2025-06-15 23:31:09,477 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:31:09,520 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:31:09,535 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 23:31:09,537 - werkzeug - INFO -  * Debugger PIN: 621-477-048
+2025-06-15 23:32:09,831 - engineio.server - INFO - Server initialized for eventlet.
+2025-06-15 23:32:10,039 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:32:10,095 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:32:10,115 - werkzeug - INFO -  * Restarting with stat
+2025-06-15 23:32:13,510 - engineio.server - INFO - Server initialized for eventlet.
+2025-06-15 23:32:13,604 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:32:13,649 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 23:32:13,660 - werkzeug - WARNING -  * Debugger is active!
+2025-06-15 23:32:13,664 - werkzeug - INFO -  * Debugger PIN: 621-477-048
+2025-06-15 23:33:54,330 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet OPEN data {'sid': 'mDVyvxzilDWNv_6wAAAA', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-06-15 23:33:56,368 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received request to upgrade to websocket
+2025-06-15 23:33:56,373 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Upgrade to websocket successful
+2025-06-15 23:33:56,374 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet MESSAGE data 0{}
+2025-06-15 23:33:56,376 - socketio.server - INFO - emitting event "scan_update" to hGZubFXE0ARBFwPxAAAB [/]
+2025-06-15 23:33:56,376 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet MESSAGE data 2["scan_update",{"total_scans":0,"phishing_count":0,"recent_scans":[]}]
+2025-06-15 23:33:56,376 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet MESSAGE data 0{"sid":"hGZubFXE0ARBFwPxAAAB"}
+2025-06-15 23:34:19,328 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:34:19,329 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:34:33,075 - socketio.server - INFO - emitting event "scan_update" to all [/]
+2025-06-15 23:34:33,075 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet MESSAGE data 2["scan_update",{"total_scans":1,"phishing_count":0,"recent_scans":[{"url":"https://www.google.com","is_phishing":false,"timestamp":"2025-06-15T23:34:33.075969","confidence":0.41573408246040344}]}]
+2025-06-15 23:34:44,335 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:34:44,337 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:35:09,347 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:35:09,348 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:35:34,354 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:35:34,355 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:35:47,885 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet OPEN data {'sid': 'AE2F-ksKjT2TS2jmAAAC', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-06-15 23:35:49,962 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received request to upgrade to websocket
+2025-06-15 23:35:49,965 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Upgrade to websocket successful
+2025-06-15 23:35:49,966 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet MESSAGE data 0{}
+2025-06-15 23:35:49,966 - socketio.server - INFO - emitting event "scan_update" to lKlXGPwfZzQeiP6oAAAD [/]
+2025-06-15 23:35:49,966 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet MESSAGE data 2["scan_update",{"total_scans":1,"phishing_count":0,"recent_scans":[{"url":"https://www.google.com","is_phishing":false,"timestamp":"2025-06-15T23:34:33.075969","confidence":0.41573408246040344}]}]
+2025-06-15 23:35:49,968 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet MESSAGE data 0{"sid":"lKlXGPwfZzQeiP6oAAAD"}
+2025-06-15 23:35:59,357 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:35:59,359 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:36:12,904 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:36:12,904 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:36:24,361 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:36:24,362 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:36:37,914 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:36:37,915 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:36:49,377 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:36:49,381 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:37:02,924 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:37:02,926 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:37:14,388 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:37:14,390 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:37:27,946 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:37:27,948 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:37:39,392 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:37:39,393 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:37:52,954 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:37:52,954 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:38:04,396 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:38:04,397 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:38:17,957 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:38:17,958 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:38:29,400 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:38:29,402 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:38:42,962 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:38:42,964 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:38:54,414 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:38:54,416 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:39:07,976 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:39:07,978 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:39:19,434 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:39:19,436 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:39:32,981 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:39:32,982 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:39:44,437 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:39:44,439 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:39:58,001 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:39:58,003 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:40:09,440 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:40:09,441 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:40:22,995 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:40:22,997 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:40:34,443 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:40:34,445 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:40:47,994 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:40:47,996 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:40:59,450 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:40:59,452 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:41:13,002 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:41:13,004 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:41:24,467 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:41:24,468 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:41:38,031 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:41:38,032 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:41:49,481 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:41:49,483 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:42:03,031 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:42:03,032 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:42:14,499 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:42:14,506 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:42:28,041 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:42:28,042 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:42:39,516 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:42:39,518 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:42:53,054 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:42:53,055 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:43:04,516 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:43:04,517 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:43:18,068 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:43:18,068 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:43:29,524 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:43:29,525 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:43:43,073 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:43:43,075 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:43:54,530 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:43:54,532 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:44:08,089 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:44:08,089 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:44:19,542 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:44:19,543 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:44:33,088 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:44:33,090 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:44:44,546 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:44:44,547 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:44:58,103 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:44:58,106 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:45:09,549 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:45:09,554 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:45:23,113 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:45:23,113 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:45:34,572 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:45:34,574 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:45:48,136 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:45:48,137 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:45:59,580 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:45:59,582 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:46:13,135 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:46:13,136 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:46:24,583 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:46:24,586 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:46:38,154 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:46:38,155 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:46:49,600 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:46:49,602 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:47:03,156 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:47:03,157 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:47:14,615 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:47:14,616 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:47:28,159 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:47:28,161 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:47:39,634 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:47:39,637 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:47:53,179 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:47:53,180 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:48:04,650 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:48:04,651 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:48:18,192 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:48:18,194 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:48:29,671 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:48:29,672 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:48:43,197 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:48:43,199 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:48:54,673 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:48:54,675 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:49:08,215 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:49:08,219 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:49:19,688 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:49:19,690 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:49:33,223 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:49:33,225 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:49:44,694 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:49:44,695 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:49:58,241 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:49:58,242 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:50:09,699 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:50:09,703 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:50:23,263 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:50:23,266 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:50:34,707 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:50:34,708 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-15 23:50:48,267 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Sending packet PING data None
+2025-06-15 23:50:48,269 - engineio.server - INFO - AE2F-ksKjT2TS2jmAAAC: Received packet PONG data 
+2025-06-15 23:50:59,733 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Sending packet PING data None
+2025-06-15 23:50:59,735 - engineio.server - INFO - mDVyvxzilDWNv_6wAAAA: Received packet PONG data 
+2025-06-19 00:31:30,704 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 00:31:30,806 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 00:39:17,538 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 00:39:17,623 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 00:39:17,793 - prediction_service - ERROR - Error extracting features from URL https://www.google.com: No module named 'Levenshtein'
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 317, in extract_features_with_trust_status
+    is_typo = is_typosquatting(domain_info.domain + '.' + domain_info.suffix, trusted_financial_domains)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CyberPbl\server\python\prediction_service.py", line 284, in is_typosquatting
+    from Levenshtein import distance
+ModuleNotFoundError: No module named 'Levenshtein'
+2025-06-19 00:39:17,796 - prediction_service - ERROR - Error extracting features from URL https://www.paypal.com: No module named 'Levenshtein'
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 317, in extract_features_with_trust_status
+    is_typo = is_typosquatting(domain_info.domain + '.' + domain_info.suffix, trusted_financial_domains)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CyberPbl\server\python\prediction_service.py", line 284, in is_typosquatting
+    from Levenshtein import distance
+ModuleNotFoundError: No module named 'Levenshtein'
+2025-06-19 00:39:17,798 - prediction_service - ERROR - Error extracting features from URL https://www.paypal.com.login.secure.verify-account.com: No module named 'Levenshtein'
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 317, in extract_features_with_trust_status
+    is_typo = is_typosquatting(domain_info.domain + '.' + domain_info.suffix, trusted_financial_domains)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CyberPbl\server\python\prediction_service.py", line 284, in is_typosquatting
+    from Levenshtein import distance
+ModuleNotFoundError: No module named 'Levenshtein'
+2025-06-19 00:39:17,799 - prediction_service - ERROR - Error extracting features from URL https://www.microsoft.com: No module named 'Levenshtein'
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 317, in extract_features_with_trust_status
+    is_typo = is_typosquatting(domain_info.domain + '.' + domain_info.suffix, trusted_financial_domains)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CyberPbl\server\python\prediction_service.py", line 284, in is_typosquatting
+    from Levenshtein import distance
+ModuleNotFoundError: No module named 'Levenshtein'
+2025-06-19 00:39:17,800 - prediction_service - ERROR - Error extracting features from URL https://www.bankofamerica.com: No module named 'Levenshtein'
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 317, in extract_features_with_trust_status
+    is_typo = is_typosquatting(domain_info.domain + '.' + domain_info.suffix, trusted_financial_domains)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CyberPbl\server\python\prediction_service.py", line 284, in is_typosquatting
+    from Levenshtein import distance
+ModuleNotFoundError: No module named 'Levenshtein'
+2025-06-19 00:39:17,801 - prediction_service - ERROR - Error extracting features from URL https://www.bank0famerica.com: No module named 'Levenshtein'
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 317, in extract_features_with_trust_status
+    is_typo = is_typosquatting(domain_info.domain + '.' + domain_info.suffix, trusted_financial_domains)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CyberPbl\server\python\prediction_service.py", line 284, in is_typosquatting
+    from Levenshtein import distance
+ModuleNotFoundError: No module named 'Levenshtein'
+2025-06-19 00:39:17,802 - prediction_service - ERROR - Error extracting features from URL https://www.amazon.com: No module named 'Levenshtein'
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 317, in extract_features_with_trust_status
+    is_typo = is_typosquatting(domain_info.domain + '.' + domain_info.suffix, trusted_financial_domains)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CyberPbl\server\python\prediction_service.py", line 284, in is_typosquatting
+    from Levenshtein import distance
+ModuleNotFoundError: No module named 'Levenshtein'
+2025-06-19 00:39:17,804 - prediction_service - ERROR - Error extracting features from URL https://amazon-payment-update.com: No module named 'Levenshtein'
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 317, in extract_features_with_trust_status
+    is_typo = is_typosquatting(domain_info.domain + '.' + domain_info.suffix, trusted_financial_domains)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CyberPbl\server\python\prediction_service.py", line 284, in is_typosquatting
+    from Levenshtein import distance
+ModuleNotFoundError: No module named 'Levenshtein'
+2025-06-19 00:39:17,805 - prediction_service - ERROR - Error extracting features from URL https://www.linkedin.com: No module named 'Levenshtein'
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 317, in extract_features_with_trust_status
+    is_typo = is_typosquatting(domain_info.domain + '.' + domain_info.suffix, trusted_financial_domains)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CyberPbl\server\python\prediction_service.py", line 284, in is_typosquatting
+    from Levenshtein import distance
+ModuleNotFoundError: No module named 'Levenshtein'
+2025-06-19 00:39:17,806 - prediction_service - ERROR - Error extracting features from URL https://www.linkdin.com: No module named 'Levenshtein'
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 317, in extract_features_with_trust_status
+    is_typo = is_typosquatting(domain_info.domain + '.' + domain_info.suffix, trusted_financial_domains)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CyberPbl\server\python\prediction_service.py", line 284, in is_typosquatting
+    from Levenshtein import distance
+ModuleNotFoundError: No module named 'Levenshtein'
+2025-06-19 00:42:14,524 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 00:42:14,584 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 00:42:16,883 - prediction_service - ERROR - Error extracting features from URL https://www.google.com: name 'is_shortened' is not defined
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 364, in extract_features_with_trust_status
+    'url_shortened': 1 if is_shortened else 0
+                          ^^^^^^^^^^^^
+NameError: name 'is_shortened' is not defined
+2025-06-19 00:42:16,888 - prediction_service - ERROR - Error extracting features from URL https://www.paypal.com: name 'is_suspicious_tld' is not defined
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 358, in extract_features_with_trust_status
+    'is_suspicious_tld': 0 if is_trusted_financial else (1 if is_suspicious_tld else 0),
+                                                              ^^^^^^^^^^^^^^^^^
+NameError: name 'is_suspicious_tld' is not defined. Did you mean: 'suspicious_tlds'?
+2025-06-19 00:42:16,889 - prediction_service - ERROR - Error extracting features from URL https://www.paypal.com.login.secure.verify-account.com: name 'is_suspicious_tld' is not defined
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 358, in extract_features_with_trust_status
+    'is_suspicious_tld': 0 if is_trusted_financial else (1 if is_suspicious_tld else 0),
+                                                              ^^^^^^^^^^^^^^^^^
+NameError: name 'is_suspicious_tld' is not defined. Did you mean: 'suspicious_tlds'?
+2025-06-19 00:42:16,892 - prediction_service - ERROR - Error extracting features from URL https://www.microsoft.com: name 'is_shortened' is not defined
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 364, in extract_features_with_trust_status
+    'url_shortened': 1 if is_shortened else 0
+                          ^^^^^^^^^^^^
+NameError: name 'is_shortened' is not defined
+2025-06-19 00:42:16,897 - prediction_service - ERROR - Error extracting features from URL https://www.bankofamerica.com: name 'is_shortened' is not defined
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 364, in extract_features_with_trust_status
+    'url_shortened': 1 if is_shortened else 0
+                          ^^^^^^^^^^^^
+NameError: name 'is_shortened' is not defined
+2025-06-19 00:42:16,901 - prediction_service - ERROR - Error extracting features from URL https://www.bank0famerica.com: name 'is_suspicious_tld' is not defined
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 358, in extract_features_with_trust_status
+    'is_suspicious_tld': 0 if is_trusted_financial else (1 if is_suspicious_tld else 0),
+                                                              ^^^^^^^^^^^^^^^^^
+NameError: name 'is_suspicious_tld' is not defined. Did you mean: 'suspicious_tlds'?
+2025-06-19 00:42:16,907 - prediction_service - ERROR - Error extracting features from URL https://www.amazon.com: name 'is_shortened' is not defined
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 364, in extract_features_with_trust_status
+    'url_shortened': 1 if is_shortened else 0
+                          ^^^^^^^^^^^^
+NameError: name 'is_shortened' is not defined
+2025-06-19 00:42:16,910 - prediction_service - ERROR - Error extracting features from URL https://amazon-payment-update.com: name 'is_suspicious_tld' is not defined
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 358, in extract_features_with_trust_status
+    'is_suspicious_tld': 0 if is_trusted_financial else (1 if is_suspicious_tld else 0),
+                                                              ^^^^^^^^^^^^^^^^^
+NameError: name 'is_suspicious_tld' is not defined. Did you mean: 'suspicious_tlds'?
+2025-06-19 00:42:16,913 - prediction_service - ERROR - Error extracting features from URL https://www.linkedin.com: name 'is_shortened' is not defined
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 364, in extract_features_with_trust_status
+    'url_shortened': 1 if is_shortened else 0
+                          ^^^^^^^^^^^^
+NameError: name 'is_shortened' is not defined
+2025-06-19 00:42:16,916 - prediction_service - ERROR - Error extracting features from URL https://www.linkdin.com: name 'is_suspicious_tld' is not defined
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 358, in extract_features_with_trust_status
+    'is_suspicious_tld': 0 if is_trusted_financial else (1 if is_suspicious_tld else 0),
+                                                              ^^^^^^^^^^^^^^^^^
+NameError: name 'is_suspicious_tld' is not defined. Did you mean: 'suspicious_tlds'?
+2025-06-19 00:44:38,146 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 00:44:38,207 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 00:49:02,799 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 00:49:02,867 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 13:51:07,951 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 13:51:08,054 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.234.130:5001
+2025-06-19 13:51:08,055 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-19 14:24:05,141 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 14:24:05,207 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.234.130:5001
+2025-06-19 14:24:05,208 - werkzeug - INFO - [33mPress CTRL+C to quit[0m

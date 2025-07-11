@@ -1,0 +1,234 @@
+2025-06-19 01:41:33,023 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 01:41:33,113 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.234.130:5001
+2025-06-19 01:41:33,113 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-19 01:42:06,144 - __main__ - INFO - Received prediction request
+2025-06-19 01:42:06,145 - __main__ - INFO - Processing URL: www.google.com
+2025-06-19 01:42:06,161 - __main__ - ERROR - Error extracting features from URL www.google.com: URL must start with http:// or https://
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 189, in extract_features_with_trust_status
+    validate_url(url)
+  File "E:\CyberPbl\server\python\prediction_service.py", line 149, in validate_url
+    raise ValueError("URL must start with http:// or https://")
+ValueError: URL must start with http:// or https://
+2025-06-19 01:42:06,161 - __main__ - ERROR - Invalid input: Failed to extract features: URL must start with http:// or https://
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 189, in extract_features_with_trust_status
+    validate_url(url)
+  File "E:\CyberPbl\server\python\prediction_service.py", line 149, in validate_url
+    raise ValueError("URL must start with http:// or https://")
+ValueError: URL must start with http:// or https://
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 515, in predict
+    features_df, is_trusted_financial = extract_features_with_trust_status(url)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CyberPbl\server\python\prediction_service.py", line 460, in extract_features_with_trust_status
+    raise ValueError(f"Failed to extract features: {str(e)}") from e
+ValueError: Failed to extract features: URL must start with http:// or https://
+2025-06-19 01:42:06,163 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:42:06] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-06-19 01:42:08,202 - __main__ - INFO - Received prediction request
+2025-06-19 01:42:08,203 - __main__ - INFO - Processing URL: https://www.google.com
+2025-06-19 01:42:08,770 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:42:08] "POST /predict HTTP/1.1" 200 -
+2025-06-19 01:42:10,813 - __main__ - INFO - Received prediction request
+2025-06-19 01:42:10,813 - __main__ - INFO - Processing URL: http://www.google.com
+2025-06-19 01:42:10,884 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:42:10] "POST /predict HTTP/1.1" 200 -
+2025-06-19 01:42:12,932 - __main__ - INFO - Received prediction request
+2025-06-19 01:42:12,932 - __main__ - INFO - Processing URL: google.com
+2025-06-19 01:42:12,933 - __main__ - ERROR - Error extracting features from URL google.com: URL must start with http:// or https://
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 189, in extract_features_with_trust_status
+    validate_url(url)
+  File "E:\CyberPbl\server\python\prediction_service.py", line 149, in validate_url
+    raise ValueError("URL must start with http:// or https://")
+ValueError: URL must start with http:// or https://
+2025-06-19 01:42:12,933 - __main__ - ERROR - Invalid input: Failed to extract features: URL must start with http:// or https://
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 189, in extract_features_with_trust_status
+    validate_url(url)
+  File "E:\CyberPbl\server\python\prediction_service.py", line 149, in validate_url
+    raise ValueError("URL must start with http:// or https://")
+ValueError: URL must start with http:// or https://
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 515, in predict
+    features_df, is_trusted_financial = extract_features_with_trust_status(url)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CyberPbl\server\python\prediction_service.py", line 460, in extract_features_with_trust_status
+    raise ValueError(f"Failed to extract features: {str(e)}") from e
+ValueError: Failed to extract features: URL must start with http:// or https://
+2025-06-19 01:42:12,934 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:42:12] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-06-19 01:42:14,989 - __main__ - INFO - Received prediction request
+2025-06-19 01:42:14,990 - __main__ - INFO - Processing URL: https://google.com
+2025-06-19 01:42:15,070 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:42:15] "POST /predict HTTP/1.1" 200 -
+2025-06-19 01:42:17,091 - __main__ - INFO - Received prediction request
+2025-06-19 01:42:17,091 - __main__ - INFO - Processing URL: subdomain.google.com
+2025-06-19 01:42:17,092 - __main__ - ERROR - Error extracting features from URL subdomain.google.com: URL must start with http:// or https://
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 189, in extract_features_with_trust_status
+    validate_url(url)
+  File "E:\CyberPbl\server\python\prediction_service.py", line 149, in validate_url
+    raise ValueError("URL must start with http:// or https://")
+ValueError: URL must start with http:// or https://
+2025-06-19 01:42:17,092 - __main__ - ERROR - Invalid input: Failed to extract features: URL must start with http:// or https://
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 189, in extract_features_with_trust_status
+    validate_url(url)
+  File "E:\CyberPbl\server\python\prediction_service.py", line 149, in validate_url
+    raise ValueError("URL must start with http:// or https://")
+ValueError: URL must start with http:// or https://
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 515, in predict
+    features_df, is_trusted_financial = extract_features_with_trust_status(url)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CyberPbl\server\python\prediction_service.py", line 460, in extract_features_with_trust_status
+    raise ValueError(f"Failed to extract features: {str(e)}") from e
+ValueError: Failed to extract features: URL must start with http:// or https://
+2025-06-19 01:42:17,094 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:42:17] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-06-19 01:42:19,133 - __main__ - INFO - Received prediction request
+2025-06-19 01:42:19,134 - __main__ - INFO - Processing URL: www.github.com
+2025-06-19 01:42:19,134 - __main__ - ERROR - Error extracting features from URL www.github.com: URL must start with http:// or https://
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 189, in extract_features_with_trust_status
+    validate_url(url)
+  File "E:\CyberPbl\server\python\prediction_service.py", line 149, in validate_url
+    raise ValueError("URL must start with http:// or https://")
+ValueError: URL must start with http:// or https://
+2025-06-19 01:42:19,135 - __main__ - ERROR - Invalid input: Failed to extract features: URL must start with http:// or https://
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 189, in extract_features_with_trust_status
+    validate_url(url)
+  File "E:\CyberPbl\server\python\prediction_service.py", line 149, in validate_url
+    raise ValueError("URL must start with http:// or https://")
+ValueError: URL must start with http:// or https://
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 515, in predict
+    features_df, is_trusted_financial = extract_features_with_trust_status(url)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CyberPbl\server\python\prediction_service.py", line 460, in extract_features_with_trust_status
+    raise ValueError(f"Failed to extract features: {str(e)}") from e
+ValueError: Failed to extract features: URL must start with http:// or https://
+2025-06-19 01:42:19,136 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:42:19] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-06-19 01:42:21,150 - __main__ - INFO - Received prediction request
+2025-06-19 01:42:21,150 - __main__ - INFO - Processing URL: github.com
+2025-06-19 01:42:21,150 - __main__ - ERROR - Error extracting features from URL github.com: URL must start with http:// or https://
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 189, in extract_features_with_trust_status
+    validate_url(url)
+  File "E:\CyberPbl\server\python\prediction_service.py", line 149, in validate_url
+    raise ValueError("URL must start with http:// or https://")
+ValueError: URL must start with http:// or https://
+2025-06-19 01:42:21,151 - __main__ - ERROR - Invalid input: Failed to extract features: URL must start with http:// or https://
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 189, in extract_features_with_trust_status
+    validate_url(url)
+  File "E:\CyberPbl\server\python\prediction_service.py", line 149, in validate_url
+    raise ValueError("URL must start with http:// or https://")
+ValueError: URL must start with http:// or https://
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 515, in predict
+    features_df, is_trusted_financial = extract_features_with_trust_status(url)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CyberPbl\server\python\prediction_service.py", line 460, in extract_features_with_trust_status
+    raise ValueError(f"Failed to extract features: {str(e)}") from e
+ValueError: Failed to extract features: URL must start with http:// or https://
+2025-06-19 01:42:21,153 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:42:21] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-06-19 01:42:23,186 - __main__ - INFO - Received prediction request
+2025-06-19 01:42:23,187 - __main__ - INFO - Processing URL: example.com
+2025-06-19 01:42:23,187 - __main__ - ERROR - Error extracting features from URL example.com: URL must start with http:// or https://
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 189, in extract_features_with_trust_status
+    validate_url(url)
+  File "E:\CyberPbl\server\python\prediction_service.py", line 149, in validate_url
+    raise ValueError("URL must start with http:// or https://")
+ValueError: URL must start with http:// or https://
+2025-06-19 01:42:23,187 - __main__ - ERROR - Invalid input: Failed to extract features: URL must start with http:// or https://
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 189, in extract_features_with_trust_status
+    validate_url(url)
+  File "E:\CyberPbl\server\python\prediction_service.py", line 149, in validate_url
+    raise ValueError("URL must start with http:// or https://")
+ValueError: URL must start with http:// or https://
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 515, in predict
+    features_df, is_trusted_financial = extract_features_with_trust_status(url)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CyberPbl\server\python\prediction_service.py", line 460, in extract_features_with_trust_status
+    raise ValueError(f"Failed to extract features: {str(e)}") from e
+ValueError: Failed to extract features: URL must start with http:// or https://
+2025-06-19 01:42:23,188 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:42:23] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-06-19 01:42:25,206 - __main__ - INFO - Received prediction request
+2025-06-19 01:42:25,207 - __main__ - INFO - Processing URL: phishing-site.com
+2025-06-19 01:42:25,207 - __main__ - ERROR - Error extracting features from URL phishing-site.com: URL must start with http:// or https://
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 189, in extract_features_with_trust_status
+    validate_url(url)
+  File "E:\CyberPbl\server\python\prediction_service.py", line 149, in validate_url
+    raise ValueError("URL must start with http:// or https://")
+ValueError: URL must start with http:// or https://
+2025-06-19 01:42:25,208 - __main__ - ERROR - Invalid input: Failed to extract features: URL must start with http:// or https://
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 189, in extract_features_with_trust_status
+    validate_url(url)
+  File "E:\CyberPbl\server\python\prediction_service.py", line 149, in validate_url
+    raise ValueError("URL must start with http:// or https://")
+ValueError: URL must start with http:// or https://
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\CyberPbl\server\python\prediction_service.py", line 515, in predict
+    features_df, is_trusted_financial = extract_features_with_trust_status(url)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CyberPbl\server\python\prediction_service.py", line 460, in extract_features_with_trust_status
+    raise ValueError(f"Failed to extract features: {str(e)}") from e
+ValueError: Failed to extract features: URL must start with http:// or https://
+2025-06-19 01:42:25,209 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:42:25] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-06-19 01:44:24,269 - __main__ - INFO - Received prediction request
+2025-06-19 01:44:24,270 - __main__ - INFO - Processing URL: https://www.google.com
+2025-06-19 01:44:24,335 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:44:24] "POST /predict HTTP/1.1" 200 -
+2025-06-19 01:44:26,369 - __main__ - INFO - Received prediction request
+2025-06-19 01:44:26,370 - __main__ - INFO - Processing URL: https://www.google.com
+2025-06-19 01:44:26,445 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:44:26] "POST /predict HTTP/1.1" 200 -
+2025-06-19 01:44:28,469 - __main__ - INFO - Received prediction request
+2025-06-19 01:44:28,470 - __main__ - INFO - Processing URL: http://www.google.com
+2025-06-19 01:44:28,551 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:44:28] "POST /predict HTTP/1.1" 200 -
+2025-06-19 01:44:30,568 - __main__ - INFO - Received prediction request
+2025-06-19 01:44:30,568 - __main__ - INFO - Processing URL: https://google.com
+2025-06-19 01:44:30,643 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:44:30] "POST /predict HTTP/1.1" 200 -
+2025-06-19 01:44:32,682 - __main__ - INFO - Received prediction request
+2025-06-19 01:44:32,683 - __main__ - INFO - Processing URL: https://google.com
+2025-06-19 01:44:32,746 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:44:32] "POST /predict HTTP/1.1" 200 -
+2025-06-19 01:44:34,774 - __main__ - INFO - Received prediction request
+2025-06-19 01:44:34,774 - __main__ - INFO - Processing URL: https://subdomain.google.com
+2025-06-19 01:44:34,836 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:44:34] "POST /predict HTTP/1.1" 200 -
+2025-06-19 01:44:36,884 - __main__ - INFO - Received prediction request
+2025-06-19 01:44:36,885 - __main__ - INFO - Processing URL: https://www.github.com
+2025-06-19 01:44:36,947 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:44:36] "POST /predict HTTP/1.1" 200 -
+2025-06-19 01:44:38,992 - __main__ - INFO - Received prediction request
+2025-06-19 01:44:38,993 - __main__ - INFO - Processing URL: https://github.com
+2025-06-19 01:44:39,061 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:44:39] "POST /predict HTTP/1.1" 200 -
+2025-06-19 01:44:41,079 - __main__ - INFO - Received prediction request
+2025-06-19 01:44:41,079 - __main__ - INFO - Processing URL: https://example.com
+2025-06-19 01:44:41,149 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:44:41] "POST /predict HTTP/1.1" 200 -
+2025-06-19 01:44:43,176 - __main__ - INFO - Received prediction request
+2025-06-19 01:44:43,176 - __main__ - INFO - Processing URL: https://phishing-site.com
+2025-06-19 01:44:43,247 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 01:44:43] "POST /predict HTTP/1.1" 200 -

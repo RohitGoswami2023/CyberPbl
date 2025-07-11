@@ -1,0 +1,70 @@
+2025-06-15 19:49:39,097 - __main__ - INFO - Starting phishing URL detector...
+2025-06-15 19:49:39,097 - __main__ - INFO - Loading model and artifacts...
+2025-06-15 19:49:39,289 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-15 19:49:39,322 - __main__ - INFO - Model and artifacts loaded successfully
+2025-06-18 01:42:40,948 - predict - INFO - Loading model and artifacts...
+2025-06-18 01:42:41,186 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-18 01:42:41,227 - predict - INFO - Model and artifacts loaded successfully
+2025-06-18 01:42:41,235 - predict - ERROR - Error predicting URL http://paypal-confirm-account.xyz/login.php: 'bool' object is not iterable
+Traceback (most recent call last):
+  File "E:\Project\CyberPbl\server\python\predict.py", line 539, in predict_url
+    reasons = get_phishing_reasons(url, features, 0)  # Will be updated with actual probability
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Project\CyberPbl\server\python\predict.py", line 414, in get_phishing_reasons
+    suspicious_factors.extend([f"obfuscation_{tech}" for tech in obfuscation_checks])
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'bool' object is not iterable
+2025-06-18 01:42:41,238 - predict - ERROR - Error predicting URL https://secure-account-update.xyz/verify: 'bool' object is not iterable
+Traceback (most recent call last):
+  File "E:\Project\CyberPbl\server\python\predict.py", line 539, in predict_url
+    reasons = get_phishing_reasons(url, features, 0)  # Will be updated with actual probability
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Project\CyberPbl\server\python\predict.py", line 414, in get_phishing_reasons
+    suspicious_factors.extend([f"obfuscation_{tech}" for tech in obfuscation_checks])
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'bool' object is not iterable
+2025-06-18 01:42:41,240 - predict - ERROR - Error predicting URL https://www.apple.com.secure-login.xyz/account: 'bool' object is not iterable
+Traceback (most recent call last):
+  File "E:\Project\CyberPbl\server\python\predict.py", line 539, in predict_url
+    reasons = get_phishing_reasons(url, features, 0)  # Will be updated with actual probability
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Project\CyberPbl\server\python\predict.py", line 414, in get_phishing_reasons
+    suspicious_factors.extend([f"obfuscation_{tech}" for tech in obfuscation_checks])
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'bool' object is not iterable
+2025-06-18 01:42:41,243 - predict - ERROR - Error predicting URL http://faceb00k-login.xyz/password/reset: 'bool' object is not iterable
+Traceback (most recent call last):
+  File "E:\Project\CyberPbl\server\python\predict.py", line 539, in predict_url
+    reasons = get_phishing_reasons(url, features, 0)  # Will be updated with actual probability
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Project\CyberPbl\server\python\predict.py", line 414, in get_phishing_reasons
+    suspicious_factors.extend([f"obfuscation_{tech}" for tech in obfuscation_checks])
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'bool' object is not iterable
+2025-06-18 01:42:41,246 - predict - ERROR - Error predicting URL https://netflix-update-billing.xyz/account: 'bool' object is not iterable
+Traceback (most recent call last):
+  File "E:\Project\CyberPbl\server\python\predict.py", line 539, in predict_url
+    reasons = get_phishing_reasons(url, features, 0)  # Will be updated with actual probability
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Project\CyberPbl\server\python\predict.py", line 414, in get_phishing_reasons
+    suspicious_factors.extend([f"obfuscation_{tech}" for tech in obfuscation_checks])
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'bool' object is not iterable
+2025-06-18 01:42:41,249 - predict - ERROR - Error predicting URL http://amazon-payment-verification.xyz/update: 'bool' object is not iterable
+Traceback (most recent call last):
+  File "E:\Project\CyberPbl\server\python\predict.py", line 539, in predict_url
+    reasons = get_phishing_reasons(url, features, 0)  # Will be updated with actual probability
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Project\CyberPbl\server\python\predict.py", line 414, in get_phishing_reasons
+    suspicious_factors.extend([f"obfuscation_{tech}" for tech in obfuscation_checks])
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'bool' object is not iterable
+2025-06-18 01:45:40,244 - predict - INFO - Loading model and artifacts...
+2025-06-18 01:45:40,429 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-18 01:45:40,455 - predict - INFO - Model and artifacts loaded successfully
+2025-06-18 01:53:26,047 - predict - INFO - Loading model and artifacts...
+2025-06-18 01:53:26,223 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-18 01:53:26,249 - predict - INFO - Model and artifacts loaded successfully
+2025-06-18 01:58:25,262 - predict - INFO - Loading model and artifacts...
+2025-06-18 01:58:25,509 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-18 01:58:25,542 - predict - INFO - Model and artifacts loaded successfully

@@ -1,0 +1,290 @@
+.container {
+  padding: 24px;
+  margin-bottom: 32px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.formContainer {
+  margin-bottom: 24px;
+}
+
+.formRow {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 600px) {
+  .formRow {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.urlInput {
+  flex-grow: 1;
+}
+
+.scanButton {
+  min-width: 120px;
+  height: 40px;
+  align-self: stretch;
+}
+
+@media (min-width: 600px) {
+  .scanButton {
+    align-self: flex-start;
+  }
+}
+
+.resultContainer {
+  margin-top: 24px;
+}
+
+.urlDisplay {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: rgba(0, 0, 0, 0.04);
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  word-break: break-all;
+}
+
+.urlActions {
+  margin-left: auto;
+  display: flex;
+  gap: 4px;
+}
+
+.sectionTitle {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.suspiciousFactors {
+  margin-top: 16px;
+}
+
+.factorList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.factorItem {
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+}
+
+.factorIcon {
+  min-width: 32px;
+  color: #ed6c02;
+}
+
+.recommendation {
+  margin-top: 16px;
+}
+
+.reportButton {
+  margin-top: 8px;
+}
+
+/* Alert styles */
+.resultAlert {
+  margin-bottom: 16px;
+}
+
+.alertTitle {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.alertContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.alertTopRow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 100%;
+}
+
+.confidenceBadge {
+  margin-right: 8px;
+}
+
+.factorsBadge {
+  margin-left: 0;
+}
+
+.reasonContainer {
+  margin-top: 12px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+  padding: 12px;
+  border-left: 3px solid #ff9800;
+}
+
+.reasonHeader {
+  margin-bottom: 8px;
+}
+
+.reasonText {
+  margin: 0 0 4px 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.secondaryText {
+  display: block;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 2px;
+}
+
+.detailedReasonsTitle {
+  margin-bottom: 4px !important;
+  display: block;
+  line-height: 1.5;
+  color: inherit;
+  font-weight: 500;
+}
+
+.detailedReasons {
+  margin-top: 12px;
+  padding-left: 4px;
+}
+
+.detailedReasons .MuiTypography-caption {
+  display: block;
+  margin-bottom: 6px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+}
+
+.reasonItem {
+  padding: 4px 0;
+  align-items: flex-start;
+}
+
+.reasonIcon {
+  min-width: 24px;
+  padding-top: 4px;
+}
+
+.reasonIcon .MuiSvgIcon-root {
+  font-size: 16px;
+  color: #ed6c02;
+}
+
+/* Adjust alert padding when there's a reason */
+.resultAlert[class*="MuiAlert-standard"] {
+  padding-bottom: 12px;
+}
+
+/* Adjust spacing for warning alerts */
+.resultAlert[class*="MuiAlert-standardWarning"] .reasonText {
+  color: #b76e00;
+  background-color: #fff8e6;
+  border-left-color: #ffb74d;
+}
+
+/* Adjust spacing for error alerts */
+.resultAlert[class*="MuiAlert-standardError"] .reasonText {
+  color: #c62828;
+  background-color: #ffebee;
+  border-left-color: #ef5350;
+}
+
+.detailsButton {
+  margin-left: auto;
+}
+
+/* Expanded details section */
+.detailsSection {
+  margin-top: 8px;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sectionTitle {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 8px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* URL display */
+.urlDisplay {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: rgba(0, 0, 0, 0.04);
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  word-break: break-all;
+}
+
+.urlActions {
+  margin-left: auto;
+  display: flex;
+  gap: 4px;
+}
+
+/* Suspicious factors list */
+.suspiciousFactors {
+  margin-top: 16px;
+}
+
+.factorList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.factorItem {
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+}
+
+.factorIcon {
+  min-width: 32px;
+  color: #ed6c02;
+}
+
+/* Section styles */
+.section {
+  margin-bottom: 24px;
+}
+
+/* Recommendation section */
+.recommendation {
+  margin-top: 16px;
+}

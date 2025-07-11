@@ -1,0 +1,283 @@
+/* Container */
+.container {
+  padding: 24px;
+  margin-bottom: 32px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.title {
+  margin: 0;
+  font-weight: 600;
+  color: #1a237e;
+}
+
+/* Search Field */
+.searchField {
+  min-width: 250px;
+}
+
+/* Table Styling */
+.tableContainer {
+  margin-top: 16px;
+  overflow-x: auto;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.table {
+  min-width: 700px;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table th, .table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.table th {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+}
+
+.tableHead {
+  background-color: var(--primary-main, #1976d2);
+  color: white;
+  font-weight: bold;
+}
+
+.tableRow:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.tableRow:hover {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+}
+
+.tableRow:last-child td,
+.tableRow:last-child th {
+  border: 0;
+}
+
+/* Header Styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.title {
+  margin: 0;
+}
+
+/* Search Styling */
+.searchField {
+  min-width: 250px;
+}
+
+/* Loading State */
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.loadingText {
+  margin-top: 8px;
+}
+
+/* Empty State */
+.emptyState {
+  padding: 32px 0;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+/* Status Chip Styling */
+.statusChip {
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: all 0.2s ease-in-out;
+  border-width: 1.5px !important;
+  min-width: 90px;
+  justify-content: flex-start;
+  gap: 4px;
+}
+
+.statusChip .MuiChip-icon {
+  margin-left: 4px;
+  margin-right: 0;
+  font-size: 1.1em;
+}
+
+/* Confidence Bar Styling */
+.confidenceContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.urlText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.confidenceBar {
+  flex-grow: 1;
+  height: 6px;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+}
+
+.confidenceFill {
+  height: 100%;
+  transition: width 0.3s ease-in-out;
+}
+
+.confidenceText {
+  min-width: 40px;
+  text-align: right;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+}
+
+/* Status Colors */
+.success {
+  background-color: #4caf50;
+}
+
+.warning {
+  background-color: #ff9800;
+}
+
+error {
+  background-color: #f44336;
+}
+
+.successText {
+  color: #2e7d32;
+}
+
+.warningText {
+  color: #ed6c02;
+}
+
+errorText {
+  color: #d32f2f;
+}
+
+/* Pagination Styling */
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.paginationActions {
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .searchField {
+    width: 100%;
+  }
+}
+
+/* URL Cell Styling */
+.urlCell {
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Confidence Bar Styling */
+.confidenceBar {
+  height: 8px;
+  border-radius: 4px;
+  margin-top: 4px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.confidenceFill {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.confidenceFill.success {
+  background-color: #4caf50; /* Green for safe */
+}
+
+.confidenceFill.warning {
+  background-color: #ff9800; /* Orange for suspicious */
+}
+
+.confidenceFill.error {
+  background-color: #f44336; /* Red for phishing */
+}
+
+/* Date Cell Styling */
+.dateCell {
+  white-space: nowrap;
+}
+
+/* Status Icons */
+.statusIcon {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Tooltip Styling */
+.tooltip {
+  max-width: 300px;
+}
+
+/* Responsive Table */
+@media (max-width: 900px) {
+  .table {
+    min-width: 100%;
+  }
+  
+  .urlCell {
+    max-width: 200px;
+  }
+  
+  .dateCell {
+    white-space: normal;
+  }
+}
